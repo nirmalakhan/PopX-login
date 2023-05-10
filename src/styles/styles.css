@@ -1,0 +1,274 @@
+.input-wrapper {
+  position: relative;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  line-height: 6ex;
+}
+
+label {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+}
+
+span {
+  color: red;
+}
+
+.img1 {
+  height: 80px;
+  width: 80px;
+  z-index: 0;
+}
+
+.img2 {
+  z-index: 1;
+  margin-left: -20px;
+}
+
+.footer {
+  display: flex;
+  margin-left: 550px;
+}
+
+.welcome {
+  margin: 100px 400px;
+  padding-left: 50px;
+  padding-top: 300px;
+  text-align: left;
+  padding-bottom: 30px;
+  border: rgb(175, 179, 179) solid;
+}
+
+.welcome:hover {
+  border: #2a4deb solid;
+}
+.show {
+  margin-top: 6px;
+}
+
+.main-heading {
+  font-size: xx-large;
+}
+.create-btn {
+  padding: 8px 130px;
+  border-radius: 5px;
+  background-color: #6c25ff;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.register-btn {
+  border-radius: 5px;
+  padding: 8px 100px;
+  background-color: #6c25ff;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#btn-prev,
+#btn-next {
+  width: 30px;
+  height: 30px;
+  border: white;
+}
+
+.signInPage {
+  margin: 100px 400px;
+  padding-left: 20px;
+  padding-top: 15px;
+  text-align: left;
+  padding-bottom: 300px;
+  border: rgb(175, 179, 179) solid;
+}
+
+.signInPage:hover {
+  border: #2a4deb solid;
+}
+
+.email {
+  color: #550ee2;
+}
+#email {
+  padding: 1px 80px;
+  font-size: 15px;
+  text-align: start;
+}
+
+#email:hover,
+#password:hover {
+  border: #2a4deb solid;
+}
+
+.password,
+.label {
+  color: #550ee2;
+}
+#password {
+  padding: 1px 80px;
+}
+
+.login {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px 160px;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 100%;
+  font-weight: bold;
+  background-color: rgb(212, 207, 207);
+}
+
+.login:hover {
+  border: #2a4deb solid;
+}
+
+.sign-heading,
+.create-heading {
+  text-align: left;
+  margin-right: 200px;
+  font-size: 16px;
+}
+
+.sign-para {
+  text-align: left;
+  margin-right: 150px;
+  font-size: 18px;
+  color: #1d2226;
+  opacity: 60%;
+}
+
+.createAccount {
+  margin-top: 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 5px;
+  padding-top: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  border: rgb(175, 179, 179) solid;
+}
+
+.createAccount:hover {
+  border: #2a4deb solid;
+}
+
+.create-input {
+  padding-left: 5px;
+  padding-right: 200px;
+}
+
+.radio {
+  margin-bottom: 200px;
+}
+
+.create-btn1 {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: #6c25ff;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.radio-btn-heading {
+  margin-left: 10px;
+}
+
+.radio-btn {
+  display: flex;
+}
+
+.radio-btn1 {
+  margin-left: -80px;
+}
+.option-yes {
+  margin-top: 8px;
+  margin-left: -90px;
+}
+
+.radio-btn2 {
+  margin-left: -60px;
+}
+
+.option-no {
+  margin-top: 8px;
+  margin-left: -90px;
+}
+
+input {
+  color: #1d2226;
+}
+
+.account-setting {
+  margin-top: 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 5px;
+
+  padding-bottom: 400px;
+  font-size: 15px;
+  border: rgb(175, 179, 179) solid;
+}
+.account-setting:hover {
+  border: #2a4deb solid;
+}
+
+.mary-details {
+  display: flex;
+}
+
+.mary-data {
+  margin-left: 20px;
+}
+
+.mary-name {
+  margin-top: -10px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.account-details {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px #cbcbcb dashed;
+
+  background-color: #f7f8f9;
+  opacity: 100%;
+}
+
+.account-heading {
+  padding-left: 20px;
+}
+
+.account-para {
+  padding-left: 20px;
+  padding-right: 18px;
+
+  word-spacing: 1px;
+  font-size: 14px;
+  color: #1d2226;
+  opacity: 100%;
+}
